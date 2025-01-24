@@ -1,6 +1,6 @@
 ;;; -*- coding: utf-8; lexical-binding: t -*-
-;;; Author: 2025-01-25 02:07:05
-;;; Timestamp: <2025-01-25 02:07:05>
+;;; Author: 2025-01-25 02:21:17
+;;; Timestamp: <2025-01-25 02:21:17>
 ;;; File: /home/ywatanabe/proj/lint-elisp/lint-elisp.el
 
 
@@ -151,3 +151,5 @@ and adds newlines before parentheses and comments."
 ;;           (lambda ()
 ;;             (add-hook 'before-save-hook 'lint-this-elisp-buffer nil t)))
 ;; ;; EOF
+
+(provide 'lint-elisp)
