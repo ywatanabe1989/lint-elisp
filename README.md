@@ -1,5 +1,5 @@
 <!-- ---
-!-- Timestamp: 2025-01-25 02:06:42
+!-- Timestamp: 2025-01-25 02:20:38
 !-- Author: ywatanabe
 !-- File: /home/ywatanabe/proj/lint-elisp/README.md
 !-- --- -->
@@ -33,10 +33,6 @@ A simple Emacs package for formatting Elisp code with consistent style.
           (lambda ()
             (add-hook 'before-save-hook 'lint-this-elisp-buffer nil t)))
 ```
-
-## License
-
-MIT
 
 ## Contact
 
